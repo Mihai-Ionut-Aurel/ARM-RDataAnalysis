@@ -1,0 +1,81 @@
+SubjectID,Treatment,Case,ClassPercentage,AttributePercentage,MethodPercentage,AssociationPercentage,MultiplicityPercentage,CompletenessPercentage,ValidityErr,InvalidityPercentage,T1,T2,Results of double check
+A1.1,G,C1,100,57,0,83,50,58,1,1.56,21,27,"I agree with all present and missing elements, but I reached a Completeness% of 58%"
+A1.2,G,C1,67,36,0,17,8,25.6,11,17.19,18,24,"I agree with the choice to view the class 'Confirmation' as 'Response'. I also agree with all present and missing elements, but I reached a Completeness% of 25,6%"
+A1.3,G,C2,100,77,50,94,59,76,12,13.48,5,30,"I reached a Completeness% of 75,4%. Almost all present and missing elements were denoted properly. Finally, in the ‰Û÷Interview‰Ûª class, the time and date attribute is present."
+A2.1,G,C2,100,74,50,88,88,80,1,1.12,9,30,"Richard: I think you corrected pretty thouroughly and done well. We agree on the handling of semantic errors. Job very well done, I did not need to correct anything. Martijn: The initial review was done pretty extensivelly. I reached the same scores for most of the elements. When there were differences, they were very small andI could understand where they came from by comparing the tables. Because the differences were very small and I understood where they came from i decided to just go with your scores. We also had different interpretations about invalidity errors, but we reached an agreement on that already. "
+A2.2,G,C2,63,48,38,47,47,47.13,36,40.45,6,25,"Comments are available in evaluated scores tab, score in this sheet are fixed/final."
+A2.3,G,C2,86,58,0,53,41,47.6,15,16.85,45,23,"Comments are available in evaluated scores tab, score in this sheet are fixed/final."
+A3.1,G,C1,67,57,0,8,8,28,14,21.88,43,10,Guidelines and process were switched. Changed it so it is correct now. Found a few differences within assocations that were not correct. (e.g. there was no assocation between room and hotel because the class room wasn't in the answers.) Time was switched with process
+A3.2,G,C2,100,87,0,76,71,67.42,12,13.48,7,29,"Guidelines and process were switched. Nearly the same outcome though, missed something in the association and multiplicity."
+A3.3,G,C1,100,54,0,58,33,49,1,1.56,7,23,"Guidelines and process were switched. Added some t's and removed some, and removed 13 validity errors"
+A4.1,G,C1,100,57,100,83,42,76.4,0,0,11,26,Almost 100% perfect. Missed a few small details
+A4.2,G,C1,,57,0,100,33,58,1,1.56,13,7,
+A4.3,G,C2,100,77,0,71,53,60.2,13,,6,21,
+A5.1,G,C2,100,74,50,100,88,79.7752809,6,6.741,6,28,"On most of the numbers our reviews match perfectly. Some of them are clearly different though, especially the Multiplicity %. I will sent you my data so you can see if you made any mistakes."
+A5.2,G,C2,75,52,0,41,35,39.3258427,3,14.61,20,14,"Again, most of the results seem to match ours. There's are small differences in Assocation and Multiplicity. See full data I sent you."
+A6.1,G,C2,100,77,25,88,33,65,3,3.37,5,39,"I had 100% the same results. The invalidity part is kind of subjective though, everyone approaches that differently. Like Marcella explained, there's a chance you "
+A6.2,G,C2,100,68,6,100,41,60.67,4,4.49,9,33,Upon checking the first evaulation I got identical results. I noticed on one occasion that the subject's Response class had an extra method that the evaluator had not seen as an error while it could have been. I didn't adjust this for continuity purposes. The rest of the evaluation and percentages were the same as that I had calculated. 
+A6.3,G,C1,33,8,25,43,29,27.6,2,3.13,27,6,"Small error in the % Multiplicity. This should be 29% instead of 36%. Also small error in T1, and T2. I changed it."
+A7.1,G,C1,50,29,0,0,0,17.2,61,95.31,2,39,"Perfect, could not find something that I could interpret different. My calculations: 11 / 64 = 0,1718 * 100 = 17, 1875 and  61 /64 * 100 = 95, 3125"
+A7.2,G,C1,67,71,0,50,0,46.9,15,23.44,8,31,
+A7.3,G,C1,83,64,0,67,42,57.8,3,4.69,8,31,"Changed the multiplicity to 42% after discussion. Also changed the validity errors to 3 after discussion. There was a validity error counted 5 times, but this was actually one validity error.  "
+A8.1,G,C2,100,71,0,94,100,62.5,2,2.25,8,48,
+A8.2,G,C2,100,77,0,94,35,61.2,10,11.24,12,44,
+A9.1,G,C1,67,86,67,50,25,64.0625,0,0,8,38,"the # of elements was listed instead of the percentage. Except for that no comments, had the exact same!"
+A9.2,G,C1,100,54,0,100,67,67.9,3,4.69,14,26,"because of a syntax error you probably missed three atrributes,  i also added two valdity errors"
+A9.3,G,C2,100,83,0,70,64,63,3,3.37,11,41,"You forgot to check and list the validity errors, transcription was missing from interview, while the spreadsheet said it was included"
+A10.1,G,C2,100,55,0,65,41,52.2,6,6.74,5,26,
+A10.2,G,C2,88,65,25,88,59,65,3,3.37,21,40,
+A10.3,G,C2,100,81,44,100,82,79.7752809,6,6.74,14,42,
+A11.1,G,C1,83,68,0,83,58,58.4,0,0,19,8,I got the same results.
+A11.2,G,C2,67,46,0,17,0,29.7,3,3.37,7,33,"I agreed with everything, except that I think you missed on of the validity errors, which I added."
+A11.3,G,C2,100,74,0,82,53,61.8,10,11.24,20,26,well done! 
+A12.1,G,C1,100,54,0,83,8,49,2,3.13,20,17,"There is an ""availability"" in ""Rooms"" after all. Apart from that it's fine."
+A12.2,G,C1,100,79,100,83,58,88,0,0,8,34,"All methods are in the model, and found less faults at multiplicity, this changed the completeness to 88."
+A12.3,G,C2,100,81,0,100,100,75.28089888,7,7.87,4,25,"I agree on the percentages for the classes, attributes, methods, associations & multiplicities. The completeness was not calculated the right way. Furthemore I found 3 more validity errors, which totals 7."
+A13.1,G,C1,50,25,0,33,8,23.2,2,3.13,13,25,"I agree with the Class, Attribute, Methods and Association percentages. I don‰Ûªt agree with the multiplicity percentage. I think that the Order to Room multiplicity should be false since there is no class called Room. I also think that the Client to ClientAddress multiplicity should be false since there is no class Called ClientAddress. Therefore, multiplicity percentage should be changed to 8% instead of 25%. The Completeness percentage should now also be changed to 23.2% instead of 26.6%. The subject also added 27 classes, attributes, methods and associations that should not be in the model. None of these validity errors are mentioned in the template that was filled in for the subject. Therefore, the ValidityErr column should be 27 instead of 0 and the Invalidity% should be 27/64 =42.1875."
+A13.2,G,C1,100,57,100,100,41.6,79.72,3,4.69,32,23,Everything was OK; Only 1 correct mutliplicity was evaluated as inorrect. This has changed the percentage from 33.3% to 41.6%.
+A13.3,G,C1,83,50,67,50,9,51.8,7,16.3,6,31,When calculating the completeness percentages and invalidity rate you considered the given elements to be correct. I recalculated the percentages and filled them in.
+A2.1 ,G,C2,100,68,50,82,82,73,6,6.74,9,30,
+A2.2 ,G,C2,63,45,31,47,57,48.6,0,0,6,25,
+A2.3,G,C2,88,58,0,53,35,45,15,16.85,8,45,
+A1.1,P,C1,50,58,63,29,29,0,2,5.41,15,37,"The class ‰Û÷FoodToHome‰Ûª is interpreted as the ‰Û÷Restaurant‰Ûª class, which is wrong in my opinion. FoodToHome refers to the application where people can book meals and the restaurants deliver those meals. This is described in the experimental subjects and for that reason I think every T in the Restaurant class is invalid, in addition the association order to restaurant is also wrong. This comes down to a completeness of 0%. I agree with both of the validity errors."
+A1.2,P,C1,83,58,63,57,36,5.263157895,9,24.32,12,28,"The class ‰Û÷Response‰Ûª is set as present but I don‰Ûªt think that is the case. In the validity errors I read that the class ‰Û÷Order confirmation‰Ûª is considered as the ‰Û÷Response‰Ûª class, I agree with this. I agree with all the validity errors"
+A1.3,P,C1,100,100,100,100,0,86.84210526,0,0,5,23,"I completely agree with the first check. All of the filled in t‰Ûªs are correct in my opinion, so that means I have the same percentage for completeness. In addition, I agree that there are no additional validation errors. The test subject did not create any additional classes, elements, methods and cardinalities."
+A2.1,P,C1,50,58,63,29,29,,18,48.65,8,24,"Richard: I think you corrected pretty thouroughly and done well. We agree on the handling of semantic errors. Job very well done, I did not need to correct anything. Martijn: Not much too add as there was not very much to check in this case. We initially handled the missing elements differently, but we also reached an agreement on that. "
+A2.2,P,C2,100,63,75,,100,45.8,16,59.26,3,31,"Comments are available in evaluated scores tab, score in this sheet are fixed/final."
+A2.3,P,C2,78,63,38,,75,50.8,3,11.11,4,38,"Comments are available in evaluated scores tab, score in this sheet are fixed/final."
+A3.1,P,C1,100,82,0,50,30,52.4,15,40.54,45,23,"Changed minor things according the given elements. Changed the calculation to exclude the given elements."
+A3.2,P,C1,100,100,100,100,60,89.19,7,18.92,5,40,"Changed the case on this sheet (C1 in stead of C2). The number of validity-errors was slightly different, but completeness is exactly the same, except for the percentages (given vs. total)"
+A3.3,P,C2,100,50,0,,33,45.75,5,18.52,7,23,"You had case 2, not case 1 as you described in this sheet, added a t where you had none, for the class 'evaluation'. Changed some things according the given elements"
+A4.1,P,C2,65,9,63,,63,0,13,48.15,4,42,Almost 100% perfect. Missed a few small details
+A4.2,P,C2,56,16,0,,13,17,3,11.11,3,18,
+A4.3,P,C1,50,0,0,14,14,15.6,6,16.22,11,39,
+A5.1,P,C2,100,56,0,,75,38.0952381,6,22.22,6,57,"-Subject created an entire new class ""student"" without you putting it with the validity errors. -At Letter, client did put in an adress string with you marked as ""n"". The client did not use the function new() which you marked ""t"". -Subject has not used any methods, however you marked quite a few down. Even though it could be said that in appendix 2 those methods are added, since the subject chose to recreate the entire model, including the processes given, no methods should be counted. -Subject did use inheritance at AcceptanceLetter to Letter. -Subject did use inheritance at RejectionLetter to Letter."
+A5.2,P,C2,100,56,50,,100,54.76190476,7,25.93,5,30,ad the correct multiplicity at rejection letter. Some other added attributes not included in the validity. Good overall.
+A6.1,P,C2,89,53,38,,100,75.3,5,18.52,3,38,"I had 100% the same results. The invalidity part is kind of subjective though, everyone approaches that differently, so I'm gonna leave that be."
+A6.2,P,C2,100,59,38,,64,70.11,4,14.81,6,23,"We attained similar results, which did not warrant changing any of the fields and values. The only area we differed a bit were with regards to the number of errors. He had initially added unnecessarily added fields as errors, which I did not do. But he did in fact do it correctly, unnecessary items added are indeed errors."
+A6.3,P,C1,100,57,0,83,50,58,2,5.41,33,9,"Small error in the % Multiplicity. This should be 50%. Also small error in T1, and T2."
+A7.1,P,C2,67,53,75,,63,23,20,74.07,3,33,"Completeness is:  47 subject elements / 9+32+8+16+16 = 81 refrence model elements  - 35 given elements =  23,02"
+A7.2,P,C1,83,81,86,64,50,48.6,2,5.41,7,42,
+A7.3,P,C1,100,91,0,100,79,81.08108108,3,8.11,7,39,Completeness is the same. Counted 3 validity errors instead of 5. Changed this after discussion about the missing methods and unknown attribute.
+A8.1,P,C1,33,19,13,14,14,18.6,4,10.81,5,46,
+A8.2,P,C1,17,12,13,14,14,24,4,10.81,10,45,
+A9.1,P,C1,67,88,75,43,50,40.05,1,2.7,11,30,"Order -> Response association was reported missing, however it was in the model of the subject; first percentages didn't include the given elements, while the should have (only correctness & invalidity not. Completeness was calculated with the total elements including the given ones (while using the correct amoung for elements in subjects models, while they should not be included in the total"
+A9.2,P,C1,50,58,63,29,29,0,3,8.11,13,30,"There was no food class or a food method in the work, completeness percentage based did not exclude given"
+A9.3,P,C2,100,75,38,,100,68.5,6,22.22,6,55,Completeness did include given elements
+A10.1,P,C2,100,56,0,,0,39,3,11.11,5,37,
+A10.2,P,C2,100,33,20,,100,29,8,29.63,13,35,
+A10.3,P,C2,100,28,40,,100,40,8,29.63,10,40,
+A11.1,P,C1,67,45,67,40,20,47.8,0,0,6,31,"I replaced the Given cells with 't' and I get different results than what you get here. I get (83,77,88,57,43) for (Class,Attributes,Methods,Association,Multiplicity)."
+A11.2,P,C1,40,22,0,18,10,18.4,3,8.11,9,28,I agreed with most of the evaluation. I think you only missed one class and its attributes in the validty error table. I added that and changed the number correspondingly.
+A11.3,P,C1,33,36,33,80,40,44.4,4,10.81,5,47,"The numbers you have in your model are different from the numbers you have here in the sheet! the numbers are (33, 15, 13, 57, 29) for (Classes, Attributes, Methods, Association, Multiplicity) recepctivly!"
+A12.1,P,C2,80,11.11,0,,18.75,27.47,1,3.7,11,32,"Ignored all ""given"" elements, therefore percentages are off. Correct numbers are in parentheses. ""Applicationform"" did have a ""deadline"". "
+A12.2,P,C2,60,16,20,,0,18.42,3,11.11,5,36,"Ignored all ""given"" elements, therefore percentages are off. Correct numbers are in parentheses."
+A12.3,P,C2,60,0,0,,0,8.571428571,2,7.41,7,33,"Honestly, most numbers are wrong, you can‰Ûªt award the subject for the elements already given by the researchers. This went wrong most likely due to the confusion created around the 'Given' elements on slack. I agree with the validity errors. I think the associations can‰Ûªt be given a percentage since they are all given. Stating an association is missing because the subject filled in a wrong class is not fair, he already gets faulted for that at the class%."
+A13.1,P,C2,67,53,38,,31,45.4,3,11.11,33,8,"I changed the T1 to 33 and T2 to 8 instead of 41 for T1 only. You considered the given elements to be correct and therefore you chose to add them to the percentage. I am not sure whether this is the good way, but to check your evaluation I chose to do it the same way. I don‰Ûªt totally agree with the Attributes percentage. In the Invoice class, the subject wrote the Date attribute, I would say that this matches the Payment Date attribute in the template. This would make the Attribute percentage 53% instead 50%. I am not sure about the Multiplicity column. You say that the multiplicity is correct for the EvaluationCommittee to Evaluation, but this is because the multiplicity is given. However, the association is not correct, so I am not sure if we can say that the multiplicity is correct. This is the same for multiplicities from Letter. Maybe you can leave it like this, otherwise it would change the Multiplicity percentage to 31% instead of 56%. If you decide to change both the percentages for Attribute and Mulitiplicity, then the Completeness% would become 45.4% instead of 49.8%. ValidityErr is 14 according to me, so Invalidity% is 14/81 =17.2839506."
+A13.2,P,C1,100,50,0,50,50,58.6,5,13.51,26,27,"multiplicity was 1 less correct point.There was one more validity error, from 3 to 4.. the missing functions was not part of the validity erorr, so that one was deleted.  1 attribute was not counted as correct. Finally, in the review the GIVEN values are also calculated in the total percentages, which is wrong, so all percentage have changed."
+A13.3,P,C1,67,64,67,60,20,55.6,12,32,36,10,When calculating the completeness percentages and invalidity rate you considered the given elements to be correct. I recalculated the percentages and filled them in.
+A2.1 ,P,C1,0,0,0,0,0,0,19,51.35,8,24,
+A2.2 ,P,C2,44,19,38,,47,29.6,0,0,3,31,
+A2.3,P,C2,33,16,0,,0,28.6,5,18.52,4,38,

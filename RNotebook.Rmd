@@ -1,0 +1,16 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+library(tidyr)
+library(psych)
+library(dplyr)
+
+df = data.frame(data)
+df[sample(1:nrow(df), 4), sample(1:ncol(df), 4)]<- NA
+df=df %>% mutate_each(funs(replace(., is.na(.), 0)))
+View(df)
+View(describe(df))
+t(sapply(df[-1], function(x) 
+  unlist(t.test(x~df$Group)[c("estimate","p.value","statistic","conf.int")])))
+
