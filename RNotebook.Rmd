@@ -5,12 +5,30 @@ output: html_notebook
 library(tidyr)
 library(psych)
 library(dplyr)
-
+data =read.csv("data.csv")
+```r
 df = data.frame(data)
+```r
 df[sample(1:nrow(df), 4), sample(1:ncol(df), 4)]<- NA
+```r
 df=df %>% mutate_each(funs(replace(., is.na(.), 0)))
-View(df)
-View(describe(df))
-t(sapply(df[-1], function(x) 
-  unlist(t.test(x~df$Group)[c("estimate","p.value","statistic","conf.int")])))
+```r
+describe(df)
+```r
+t.test(df$ClassPercentage~ df$Treatment)
+```r
+t.test(df$AttributePercentage~ df$Treatment)
+```r
+t.test(df$MethodPercentage~ df$Treatment)
+```r
+t.test(df$AssociationPercentage~ df$Treatment)
+```r
+t.test(df$MultiplicityPercentage~ df$Treatment)
+```r
+t.test(df$CompletenessPercentage~ df$Treatment)
+```r
+t.test(df$ValidityErr~ df$Treatment)
+```r
+t.test(df$InvalidityPercentage~ df$Treatment)
+```r
 
