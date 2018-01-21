@@ -12,36 +12,62 @@ data
 df = data.frame(data)
 ```
 ```{r}
-df[sample(1:nrow(df), 4), sample(1:ncol(df), 4)]<- NA
+#df[sample(1:nrow(df), 4), sample(1:ncol(df), 4)]<- NA
+df
 ```
 ```{r}
-df=df %>% mutate_each(funs(replace(., is.na(.), 0)))
-```
-```{r}
-describe(df)
-```
-```{r}
+t.test(df$ClassPercentage[which(df$Case == "C1")]~ df$Treatment[which(df$Case == "C1")])
+t.test(df$ClassPercentage[which(df$Case == "C2")]~ df$Treatment[which(df$Case == "C2")])
 t.test(df$ClassPercentage~ df$Treatment)
 ```
 ```{r}
+t.test(df$AttributePercentage[which(df$Case == "C1")]~ df$Treatment[which(df$Case == "C1")])
+t.test(df$AttributePercentage[which(df$Case == "C2")]~ df$Treatment[which(df$Case == "C2")])
 t.test(df$AttributePercentage~ df$Treatment)
 ```
 ```{r}
+t.test(df$MethodPercentage[which(df$Case == "C1")]~ df$Treatment[which(df$Case == "C1")])
+t.test(df$MethodPercentage[which(df$Case == "C2")]~ df$Treatment[which(df$Case == "C2")])
 t.test(df$MethodPercentage~ df$Treatment)
 ```
+
 ```{r}
+t.test(df$AssociationPercentage[which(df$Case == "C1")]~ df$Treatment[which(df$Case == "C1")])
 t.test(df$AssociationPercentage~ df$Treatment)
 ```
+
 ```{r}
+t.test(df$MultiplicityPercentage[which(df$Case == "C1")]~ df$Treatment[which(df$Case == "C1")])
+t.test(df$MultiplicityPercentage[which(df$Case == "C2")]~ df$Treatment[which(df$Case == "C2")])
 t.test(df$MultiplicityPercentage~ df$Treatment)
 ```
 ```{r}
+t.test(df$CompletenessPercentage[which(df$Case == "C1")]~ df$Treatment[which(df$Case == "C1")])
+t.test(df$CompletenessPercentage[which(df$Case == "C2")]~ df$Treatment[which(df$Case == "C2")])
 t.test(df$CompletenessPercentage~ df$Treatment)
 ```
 ```{r}
+t.test(df$ValidityErr[which(df$Case == "C1")]~ df$Treatment[which(df$Case == "C1")])
+t.test(df$ValidityErr[which(df$Case == "C2")]~ df$Treatment[which(df$Case == "C2")])
 t.test(df$ValidityErr~ df$Treatment)
 ```
+
 ```{r}
+t.test(df$InvalidityPercentage[which(df$Case == "C1")]~ df$Treatment[which(df$Case == "C1")])
+t.test(df$InvalidityPercentage[which(df$Case == "C2")]~ df$Treatment[which(df$Case == "C2")])
 t.test(df$InvalidityPercentage~ df$Treatment)
+```
+```{r}
+t.test(df$T1[which(df$Case == "C1")]~ df$Treatment[which(df$Case == "C1")])
+t.test(df$T1[which(df$Case == "C2")]~ df$Treatment[which(df$Case == "C2")])
+t.test(df$T1~ df$Treatment)
+```
+```{r}
+t.test(df$T2[which(df$Case == "C1")]~ df$Treatment[which(df$Case == "C1")])
+t.test(df$T2[which(df$Case == "C2")]~ df$Treatment[which(df$Case == "C2")])
+t.test(df$T2~ df$Treatment)
+```
+```{r}
+df=df %>% mutate_each(funs(replace(., is.na(.), 0)))
 ```
 
